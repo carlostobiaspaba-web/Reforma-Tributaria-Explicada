@@ -358,6 +358,8 @@ details.efecto[open] summary .mas{visibility:hidden}
 .notas p{font-size:.88rem;line-height:1.55;color:#3b3340;margin:0 0 .7em;max-width:none}
 .notas p:last-child{margin-bottom:0}
 .notas b{font-family:var(--sans);color:var(--morado)}
+.compartir{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.aviso-copia{font-family:var(--sans);font-size:.85rem;color:var(--morado);min-height:1.2em;margin:4px 0 0}
 </style>
 </head>
 <body>
@@ -372,6 +374,7 @@ details.efecto[open] summary .mas{visibility:hidden}
       <a href="#mapa">Su región</a>
       <a href="#ley">Cómo sigue</a>
       <a href="#repaso">Repaso</a>
+      <a href="#participe">Participe</a>
     </nav>
   </div>
 </header>
@@ -393,7 +396,7 @@ details.efecto[open] summary .mas{visibility:hidden}
     </div>
     <svg class="mapa-portada" id="mapa-portada" aria-hidden="true"></svg>
   </div>
-  <div class="franja"><div class="wrap">Por eso yo marcho el 19 de noviembre</div></div>
+  <div class="franja"><div class="wrap">La reforma se decide en diciembre: infórmese y compártala</div></div>
 </div>
 
 
@@ -542,8 +545,8 @@ details.efecto[open] summary .mas{visibility:hidden}
         <li class="hecho"><span class="fecha">3 de noviembre</span><h4>Mensaje de urgencia e insistencia</h4><p>Primer debate conjunto y prelación en el orden del día (art. 163 CP).</p></li>
         <li class="hecho"><span class="fecha">12 y 13 de noviembre</span><h4>Sesiones conjuntas y ponentes</h4><p>Resolución MD-0875. Se designan los ponentes del primer debate.</p></li>
         <li class="hecho"><span class="fecha">15 y 16 de noviembre</span><h4>Anuncio sobre el IVA</h4><p>Sin texto oficial todavía.</p></li>
-        <li><span class="fecha">17 de noviembre</span><h4>Comisiones con el ministro de Hacienda</h4><p>Según la prensa.</p></li>
-        <li class="clave"><span class="fecha">19 de noviembre</span><h4>Marcha</h4><p>La ciudadanía también participa: marchas, asambleas y audiencias públicas.</p></li>
+        <li class="hecho"><span class="fecha">17 de noviembre</span><h4>Comisiones con el ministro de Hacienda</h4><p>Según la prensa.</p></li>
+        <li class="hecho"><span class="fecha">19 de noviembre</span><h4>Gran Movilización Nacional</h4><p>La ciudadanía salió a las calles contra la reforma.</p></li>
       </ol>
       <ol class="linea" start="7">
         <li><span class="fecha">23 a 27 de noviembre</span><h4>Primer debate (proyectado)</h4><p>Nada se vota sin anuncio previo en la sesión anterior (art. 160 CP).</p></li>
@@ -566,19 +569,21 @@ details.efecto[open] summary .mas{visibility:hidden}
   </div>
 </section>
 
-<section id="utl">
+<section id="participe">
   <div class="wrap">
-    <h2 class="titulo-sec">Para las UTL y equipos regionales</h2>
-    <p class="entrada">Esta guía se hizo para compartirse. Úsela para preparar a su congresista, en una asamblea, en un colegio o para explicarle el proyecto a la gente.</p>
+    <h2 class="titulo-sec">Infórmese, compártala y participe</h2>
+    <p class="entrada">La reforma se discute en el Congreso en las próximas semanas. Usted puede seguir el debate, hablar del tema con su gente y decirles a sus congresistas lo que piensa.</p>
     <div class="utl-grid">
-      <div><h3>Un informe por departamento</h3><p>En el mapa, escoja el departamento y use «Ver informe». Sale un resumen en viñetas, con fuentes, que puede descargar en Word, guardar en PDF o copiar para WhatsApp.</p></div>
-      <div><h3>Cifras que aguantan réplica</h3><p>Todo viene del texto radicado, la exposición de motivos, el DANE, la UPRA, MinAgricultura y el REPS. La prensa solo se usa para fechas y hechos políticos.</p></div>
-      <div><h3>Para explicar en una asamblea</h3><p>Empiece por los cinco pasos, haga la prueba del IVA con el público, recorra las pestañas de «Qué cambia» y cierre con el repaso. Cada efecto trae su artículo para quien quiera leer la fuente.</p></div>
+      <div><h3>Compártala</h3><p>Mándela a su familia, a su grupo de trabajo o a su junta de acción comunal. Mientras más gente sepa qué dice el proyecto, mejor se discute.</p>
+        <p class="compartir"><a class="btn" id="btn-wa" href="#" target="_blank" rel="noopener">Compartir por WhatsApp</a> <button type="button" class="btn sec" id="btn-copiar">Copiar enlace</button></p>
+        <p class="aviso-copia" id="aviso-copia" role="status"></p></div>
+      <div><h3>Vea su región</h3><p>En «Su región», escoja su departamento y toque «Ver informe». Sale un resumen corto, con fuentes, que puede descargar en Word, guardar en PDF o copiar para WhatsApp.</p></div>
+      <div><h3>Siga el debate</h3><p>Las sesiones de las comisiones y las plenarias son públicas. En «Cómo sigue» están las fechas. Escríbales a los representantes y senadores de su departamento: su opinión cuenta antes de que se vote.</p></div>
     </div>
     <div class="notas">
-      <p><b>Alcance.</b> Esta guía explica los efectos principales del Proyecto de Ley 477 de 2026 Cámara: el IVA a los insumos y servicios del campo, la cotización de salud, la renta de personas y empresas, las facultades extraordinarias, la venta de activos públicos y la deuda territorial. No recorre los 106 artículos uno por uno. Es una lectura orientativa del texto radicado y de la exposición de motivos del Ministerio de Hacienda; no es una cifra oficial ni asesoría tributaria. La prueba del IVA usa números redondos de ejemplo. La calculadora de salud mide solo la cotización del trabajador (art. 21) con el salario mínimo de 2026; las nuevas tarifas rigen desde 2027. El aumento de costos por cultivo es un cálculo de esta UTL con estructuras de costos de la UPRA, en pesos del año de cada fuente. El indicador de deuda de la Ley 358 por municipio también es cálculo de esta UTL; el de Barranquilla (99,2 %) es el oficial de su Marco Fiscal 2026. El anuncio presidencial del 15 de noviembre sobre el IVA a la canasta no tiene texto oficial al corte: la lectura sobre qué bienes pierden la exclusión se hizo sobre el texto radicado y puede cambiar en el trámite.</p>
+      <p><b>Alcance.</b> Esta guía explica los efectos principales del Proyecto de Ley 477 de 2026 Cámara: el IVA a los insumos y servicios del campo, la cotización de salud, la renta de personas y empresas, las facultades extraordinarias, la venta de activos públicos y la deuda territorial. No recorre los 106 artículos uno por uno. Es una lectura orientativa del texto radicado y de la exposición de motivos del Ministerio de Hacienda; no es una cifra oficial ni asesoría tributaria. La prueba del IVA usa números redondos de ejemplo. La calculadora de salud mide solo la cotización del trabajador (art. 21) con el salario mínimo de 2026; las nuevas tarifas rigen desde 2027. El aumento de costos por cultivo es un cálculo de esta Unidad de Trabajo Legislativo (UTL) con estructuras de costos de la UPRA, en pesos del año de cada fuente. El indicador de deuda de la Ley 358 por municipio también es cálculo de esta UTL; el de Barranquilla (99,2 %) es el oficial de su Marco Fiscal 2026. El anuncio presidencial del 15 de noviembre sobre el IVA a la canasta no tiene texto oficial al corte: la lectura sobre qué bienes pierden la exclusión se hizo sobre el texto radicado y puede cambiar en el trámite.</p>
       <p><b>Fuentes.</b> Ministerio de Hacienda: texto radicado y exposición de motivos del PL 477/2026C – 328/2026S (Tablas 10 y 14; pp. 55–59, 103–110, 131, 136 y 204). DANE: proyecciones de población 2026 y GEIH, junio–agosto de 2026. MinAgricultura y UPRA: Evaluaciones Agropecuarias Municipales 2025 y estructuras de costos de producción. MinSalud: REPS, marzo de 2026. CHIP: FUT Deuda Pública y CUIPO, vigencia 2025. Salario mínimo 2026: Decreto 1469 de 2025. El detalle de cada cálculo está en «Metodología y fuentes».</p>
-      <p><b>Créditos.</b> Guía preparada por la Unidad de Trabajo Legislativo de la Representante Andrea Vargas (Pacto Histórico). Análisis y desarrollo: Carlos Tobías Paba. Diseño y programación con ayuda de Claude, asistente de inteligencia artificial de Anthropic.</p>
+      <p><b>Créditos.</b> Guía preparada por la Unidad de Trabajo Legislativo (UTL) de la Representante a la Cámara Andrea Vargas (Pacto Histórico). Donde dice «cálculo UTL», el cálculo es de este equipo. Análisis y desarrollo: Carlos Tobías Paba. Diseño y programación con ayuda de Claude, asistente de inteligencia artificial de Anthropic.</p>
     </div>
     <div class="cita"><b>Cómo citar:</b> UTL de la Representante Andrea Vargas (2026). <i>Reforma tributaria: más impuestos para los trabajadores, menos para los grandes.</i> Guía pedagógica. Comisión Cuarta, Cámara de Representantes. Corte: 17 de noviembre de 2026.</div>
 
@@ -616,7 +621,7 @@ details.efecto[open] summary .mas{visibility:hidden}
 
 <footer>
   <div class="wrap">
-    <div class="marcha">Por eso yo marcho el 19 de noviembre</div>
+    <div class="marcha">La reforma se decide en diciembre: infórmese y compártala</div>
     <div>Unidad de Trabajo Legislativo de la Representante a la Cámara Andrea Camila Vargas de la Hoz · Comisión Cuarta Constitucional Permanente</div>
     <div class="licencia">
       © 2026 UTL de la Representante Andrea Vargas. Textos, cálculos y diseño bajo licencia <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.es" rel="license">Creative Commons Atribución-NoComercial 4.0</a>: puede copiar, adaptar y compartir este material citando la fuente y sin fines comerciales. Los datos de DANE, UPRA, MinSalud y MinHacienda pertenecen a sus entidades. El logo no se reutiliza sin autorización.
@@ -1048,10 +1053,22 @@ const RESP = {};
     document.getElementById('puntaje').textContent = n === PREGUNTAS.length ? `${ok} de ${PREGUNTAS.length} correctas. ${ok === PREGUNTAS.length ? 'Ya puede explicarle la reforma a otra persona.' : 'Revise las respuestas y vuelva a intentarlo.'}` : `Lleva ${n} de ${PREGUNTAS.length}.`;
   });
 })();
+/* ---------- compartir ---------- */
+(() => {
+  const canon = document.querySelector('meta[property="og:url"]').content;
+  const url = /^https?:/.test(location.protocol) && !/claude|localhost/.test(location.hostname) ? location.origin + location.pathname : canon;
+  const txt = 'Reforma tributaria explicada: qué cambia, a quién le pega y cómo se tramita, con las cifras del propio Gobierno. ' + url;
+  document.getElementById('btn-wa').href = 'https://wa.me/?text=' + encodeURIComponent(txt);
+  const av = document.getElementById('aviso-copia');
+  document.getElementById('btn-copiar').addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(url); av.textContent = 'Enlace copiado.'; }
+    catch (e) { av.textContent = 'Copie este enlace: ' + url; }
+  });
+})();
 /* ---------- navegación activa ---------- */
 (() => {
   const links = [...document.querySelectorAll('.barra nav a')];
-  const mapa = {basico:'basico', palabras:'basico', efectos:'efectos', bolsillo:'bolsillo', mapa:'mapa', 'quien-sirve':'mapa', ley:'ley', repaso:'repaso'};
+  const mapa = {basico:'basico', palabras:'basico', efectos:'efectos', bolsillo:'bolsillo', mapa:'mapa', 'quien-sirve':'mapa', ley:'ley', repaso:'repaso', participe:'participe'};
   const secs = Object.keys(mapa).map(id => document.getElementById(id)).filter(Boolean);
   if (!('IntersectionObserver' in window)) return;
   const io = new IntersectionObserver(ents => {
